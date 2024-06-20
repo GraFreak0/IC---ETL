@@ -20,7 +20,12 @@ In this stage, the program:
 - Further breaks down the data into sub-categories for easier user understanding
 
 ## Getting Started
-[Insert instructions on how to run the program, any dependencies required, and any other relevant information]
+1. Fork the Repo to your PC
+2. Go to the `main` folder and edit the `init.py` file in your Code editor
+3. Go to Line 29 and change the `base_dir` variable according to the location of the Repo on your PC 
+4. Run the code and enjoy
+
+### N.B: The init.py program runs the `inward`, `outward` and `finals` notebooks sequentially 
 
 ## Modules/Libraries utilized
 - io
