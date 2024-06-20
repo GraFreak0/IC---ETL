@@ -36,7 +36,7 @@ In this stage, the program:
 - datetime
 - nbformat
 - nbconvert
-- ipykerneel
+- ipykernel
 
 To install these Python modules, you can use the `pip` package manager. Open your terminal or command prompt and run the following commands:
 ```bash
