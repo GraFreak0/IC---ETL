@@ -31,10 +31,11 @@ In this stage, the program:
 - datetime
 - nbformat
 - nbconvert
+- ipykerneel
 
 To install these Python modules, you can use the `pip` package manager. Open your terminal or command prompt and run the following commands:
 ```bash
-pip install pandas pandasql nbformat nbconvert
+pip install pandas pandasql nbformat nbconvert ipykernel
 ```
 For the other modules (`io`, `os`, `glob`, and `datetime`), they are part of the Python standard library, so you don't need to install them separately. You can directly import them in your Python scripts or Jupyter notebooks.
 If you encounter any issues during installation or need further assistance, feel free to ask! 😊

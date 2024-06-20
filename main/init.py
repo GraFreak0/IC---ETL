@@ -18,7 +18,7 @@ def execute_notebook(notebook_path):
         with open(notebook_path, 'w') as f:
             write(nb, f)
           
-except FileNotFoundError:
+    except FileNotFoundError:
         print(f"Error: Notebook file '{notebook_path}' not found.")
     except NotJSONError as e:
         print(f"Error: Notebook file '{notebook_path}' does not appear to be JSON: {str(e)}")
@@ -31,7 +31,7 @@ def monitor_execution(notebook_name):
     execute_notebook(notebook_path)
     print(f'Execution of {notebook_name} notebook complete.')
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     notebooks_to_run = ['inwardSuccessful', 'outwardSuccessful', 'finals']
     
     for notebook in notebooks_to_run:
